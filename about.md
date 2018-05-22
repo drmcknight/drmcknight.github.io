@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Professionally, I love breaking large problems down into small, deliverable pieces. I've spent a majority of my career looking for ways to write excellent, maintainable applications. I don't think there's any one good way but I've amassed enough tools to be successful.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Personally, I am a husband and a dad. I enjoy The Lord of the Rings, Gaming, and writing Software.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I currently work at [Curse](https://www.curse.com) doing all I can to make it even better.
