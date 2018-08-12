@@ -10,3 +10,10 @@
 a, a:visited {
     color: #424242 !important;
 }
+
+.post-content img {
+    display: block;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto; 
+}
