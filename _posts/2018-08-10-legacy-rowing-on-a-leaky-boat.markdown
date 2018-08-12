@@ -13,13 +13,12 @@ Its abridged origin story is that it was a skunkworks project designed to outper
 
 To give a little peek into the earlier application I've added the details below:
 
-* .NET 3.5
 * ASP.NET MVC 1.1
     * There was never an ASP.NET MVC 1.1. Someone decompiled MVC's source, changed a few things, and recompiled it as MVC 1.1. I still don't know what was changed.
 * Custom static content packager
 * Custom deploy process executed on developer machines
-* SQL Server 2008
-* An extended LINQ 2 SQL
+* MSSQL
+* LINQ 2 SQL with custom extensions
 * Test coverage < 1%
 * 1 repository with hundreds of branches
     * Some branches contained a totally different set of applications. Merges were fun.
