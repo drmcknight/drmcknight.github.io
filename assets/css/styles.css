@@ -6,6 +6,11 @@
     margin-bottom: 0px;
 }
 
+.post-list li {
+    padding-bottom: 30px;
+    border-bottom: 1px solid grey;
+}
+
 .footer-col-1 {
     width:auto !important;
     margin-right: 15px;
