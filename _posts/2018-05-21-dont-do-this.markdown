@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Worst Code I've Ever Seen"
+title:  "Don't Do This"
 date:   2018-05-21 23:48:47 -0500
 categories: code
 ---
