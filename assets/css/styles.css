@@ -6,7 +6,7 @@
     margin-bottom: 0px;
 }
 
-.post-list li {
+.post-list > li {
     padding-bottom: 30px;
     border-bottom: 1px solid grey;
 }
