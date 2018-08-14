@@ -18,7 +18,7 @@ subtitle: Adventures in Life and Work
 email: 
 description: McKnighted is a blog about software, management, hiking, being a dad, etc.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.mcknighted.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mcknighted.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: danielmcknight
 github_username:  drmcknight
 google_analytics: UA-123748877-1
