@@ -1,14 +1,15 @@
 ---
 layout: default
-title: Thoughts on my adventures in life and work
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- else -%}
-    <h1 class="page-heading">{{ site.subtitle }}</h1>
-  {%- endif -%}
+  <h1>
+      {%- if page.title -%}
+        {{ page.title }}
+      {%- else -%}
+        {{ site.subtitle }}
+      {%- endif -%}
+  </h1>
 
   {{ content }}
 
