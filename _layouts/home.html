@@ -24,12 +24,16 @@ layout: default
               {{ post.title | escape }} 
             </a>
           </h3>
-          <span class="post-meta">
-            {{ post.date | date: date_format }}
-            {% for category in post.categories %}
-              {{category}} 
-            {% endfor%}
-          </span>
+          <div class="post-meta">
+            <span class="post-meta-date">
+              {{ post.date | date: date_format }}
+            </span>
+            <span class="post-meta-categories">
+              {% for category in post.categories %}
+                {{category}} 
+              {% endfor%}
+            </span>
+          </div>
           <div class="post-content">
             {{ post.content }}
           </div>
