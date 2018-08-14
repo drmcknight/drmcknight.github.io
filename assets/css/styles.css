@@ -52,7 +52,12 @@ a, a:visited {
     align-items: center;
 }
 
-.tags {
+.post-meta-categories-category {
+    padding-left:3px;
+    padding-right:3px;
+}
+
+.post-meta-tags {
     margin-left: 15px;
     margin-right: 5px;
     height: 15px;
