@@ -3,6 +3,7 @@ layout: post
 title:  "Cobalt: Rowing a Leaky Boat"
 date:   2018-08-10 23:48:47 -0500
 categories: [curse, cobalt, software]
+description: Cobalt is a platform that many of your favorite sites are built upon. I'm going to chronicle my adventures as we pay down tech debt in this legacy rescue.
 ---
 
 I once heard a developer on another team describe his work as "rowing a leaky boat". In the analogy you are in a sinking boat and you have to either bail or row. If you choose to bail, you're drifting back out to sea. If you choose to row, you sink. The analogy felt familiar except we've even gone as far as trying to invent more choices. "Sure we can totally do this intense redesign and also meet the aggressive new project deadline. We'll just do them together!". Not surprisingly we found ourselves still sinking, drifting out to sea and totally off course. You can't row and bail at the same time and I think we've been trying to bail and row Cobalt for some time.

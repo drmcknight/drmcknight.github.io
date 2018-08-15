@@ -3,6 +3,7 @@ layout: post
 title:  "Don't Do This"
 date:   2018-05-21 23:48:47 -0500
 categories: code
+description: I stumbled on this terrible code.
 ---
 
 I stumbled on this a few years ago while trying fix a bug. My best guess is that this represents the attack/defense/resist/weakness matrix of a set of pokemon. Which pokemon? I have no clue.
