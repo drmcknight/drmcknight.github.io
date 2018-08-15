@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: McKnighted
 subtitle: Adventures in Life and Work
+keywords: Daniel McKnight, Daniel, McKnight, software, hiking, blog, software manager, software engineer, software maintainability, dad, clean code, curse, cobalt, mcknighted
 email: 
 description: McKnighted is a blog about software, management, hiking, being a dad, etc.
 baseurl: "" # the subpath of your site, e.g. /blog

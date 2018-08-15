@@ -1,3 +1,4 @@
+{%- include meta.html -%}
 <head>
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
@@ -5,19 +6,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.4.0 -->
-  <title>McKnighted | A blog about software, management, hiking, being a dad, etc.</title>
+  <title>McKnighted | {{ title }}</title>
   <meta name="generator" content="Jekyll v3.8.0" />
-  <meta property="og:title" content="McKnighted" />
+  <meta property="og:title" content="{{ title }}" />
   <meta property="og:locale" content="en_US" />
-  <link rel="canonical" href="{{ site.url }}" />
-  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:url" content="{{ url | prepend: site.url }}" />
   <meta property="og:site_name" content="McKnighted" />
-  <meta property="description" content="{{ site.description }}" />
-  <meta property="og:description" content="{{ site.description }}">
-  <meta property="keywords" content="Daniel McKnight, Daniel, McKnight, software, hiking, blog, software manager, software engineer, software maintainability, dad, clean code, curse, cobalt, mcknighted" />
+  <meta property="og:description" content="{{ description }}">
+  <link rel="canonical" href="{{ site.url }}" />
+  <meta property="description" content="{{ description }}" />
+  <meta property="keywords" content="{{ keywords }}" />
   <meta property="author" content="Daniel McKnight" />
   <script type="application/ld+json">
-  {"url":"{{ site.url }}","headline":"{{ site.description }}","name":"McKnighted","@type":"WebSite","@context":"http://schema.org"}</script>
+  {"url":"{{ url }}","headline":"{{ description }}","name":"McKnighted","@type":"WebSite","@context":"http://schema.org"}</script>
   <!-- End Jekyll SEO tag -->
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
   <link rel="stylesheet" type="text/css" href="/assets/css/styles.css"><link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Daniel McKnight" /></head>

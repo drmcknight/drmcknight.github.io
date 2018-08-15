@@ -1,0 +1,23 @@
+{% if page.title %}
+{% assign title = page.title %}
+{% else %}
+{% assign title = site.subtitle %}
+{% endif %}
+
+{% if page.description %}
+{% assign description = page.description %}
+{% else %}
+{% assign description = site.description %}
+{% endif %}
+
+{% if page.url %}
+{% assign url = page.url %}
+{% else %}
+{% assign url = site.url %}
+{% endif %}
+
+{% if page.keywords %}
+{% assign keywords = page.keywords %}
+{% else %}
+{% assign keywords = site.keywords %}
+{% endif %}
