@@ -15,3 +15,9 @@
 {% else %}
 {% assign url = site.url %}
 {% endif %}
+
+{% if page.image %}
+{% assign image = page.image %}
+{% else %}
+{% assign image = site.image %}
+{% endif %}
