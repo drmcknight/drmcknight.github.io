@@ -11,11 +11,7 @@
   <meta name="description" content="{{ description }}">
   <meta name="author" content="Daniel McKnight">
   <meta name="generator" content="Jekyll v3.8.0">
-  <meta name="og:title" content="{{ title }}">
-  <meta name="og:locale" content="en_US">
-  <meta name="og:url" content="{{ url | prepend: site.url }}">
-  <meta name="og:site_name" content="McKnighted">
-  <meta name="og:description" content="{{ description }}">
+  {%- include og.html -%}
   <link rel="canonical" href="{{ url | prepend: site.url }}" />
   <script type="application/ld+json">
     {"url":"{{ url }}","headline":"{{ description }}","name":"McKnighted","@type":"WebSite","@context":"http://schema.org"}
