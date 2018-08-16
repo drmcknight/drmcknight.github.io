@@ -14,12 +14,12 @@
   {%- include og.html -%}
   <link rel="canonical" href="{{ url | prepend: site.url }}" />
   <script type="application/ld+json">
-    {"url":"{{ url }}","headline":"{{ description }}","name":"McKnighted","@type":"WebSite","@context":"http://schema.org"}
+    {"url":"{{ url | prepend: site.url }}","headline":"{{ description }}","name":"McKnighted","@type":"WebSite","@context":"http://schema.org"}
   </script>
   <!-- End Jekyll SEO tag -->
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?" />
   <link rel="stylesheet" type="text/css" href="/assets/css/styles.css"/>
   <link rel="stylesheet" href="/assets/main.css" />
-  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Daniel McKnight" />
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="McKnighted" />
 </head>
   
