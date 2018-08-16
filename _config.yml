@@ -22,7 +22,7 @@ url: "https://mcknighted.com" # the base hostname & protocol for your site, e.g.
 twitter_username: danielmcknight
 github_username:  drmcknight
 google_analytics: UA-123748877-1
-image: "/assets/images/og-image-1200x1200.png"
+image: "/assets/images/site/og-image-1200x1200.png"
 # Build settings
 markdown: kramdown
 theme: minima
