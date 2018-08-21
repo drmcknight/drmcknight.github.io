@@ -33,11 +33,14 @@ a:hover {
     float:left;
     display: flex;
     align-items: center;
-    color: #424242;
 }
 
 .site-footer {
     height:180px;
+}
+
+.dark-link {
+    color: #424242 !important;
 }
 
 .post-content {
