@@ -31,7 +31,7 @@ private static readonly double[][] AtkDefResistWeaknessMatrix =
   new [] {1, .5, 1, 1, 1, 1, 1, 2, .5, 1, 1, 1, 1, 2, 1, 1, .5,0 }};
 {% endhighlight %}
 
-A much cleaner implementation could could have been to create an object...
+The correct implementation would have been to create an object...
 
 {% highlight csharp %}
 public class Pokemon
