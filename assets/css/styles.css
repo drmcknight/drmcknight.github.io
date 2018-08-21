@@ -45,12 +45,12 @@ a, a:visited {
 }
 
 .post-content a {
-    color: #4466c5;
+    color: #4466c5 !important;
 }
 
 .post-content a:hover {
-    color: #4466c5;
-    text-decoration: underline;
+    color: #4466c5 !important;
+    text-decoration: underline !important;
 }
 
 .home h1 {
