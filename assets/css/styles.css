@@ -19,14 +19,21 @@
 }
 
 a, a:visited {
-    color: #424242 !important;
+    color: #4466c5 !important;
 }
+
+a:hover {
+    color: #4466c5 !important;
+    text-decoration: underline !important;
+}
+
 .site-title-href {
     padding: 13px;
     font-size:20px;
     float:left;
     display: flex;
     align-items: center;
+    color: #424242;
 }
 
 .site-footer {
@@ -42,15 +49,6 @@ a, a:visited {
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto; 
-}
-
-.post-content a {
-    color: #4466c5 !important;
-}
-
-.post-content a:hover {
-    color: #4466c5 !important;
-    text-decoration: underline !important;
 }
 
 .home h1 {
