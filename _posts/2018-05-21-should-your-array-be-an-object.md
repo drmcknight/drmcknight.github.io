@@ -28,7 +28,8 @@ private static readonly double[][] AtkDefResistWeaknessMatrix =
   new [] {1, 1, 2, 1, 2, 1, 1, 1, .5, .5, .5, 2, 1, 1, .5, 2, 1,0 },
   new [] {1, 1, 1, 1, 1, 1, 1, 1, .5, 1, 1, 1, 1, 1, 1, 2, 1,0 },
   new [] {1, .5, 1, 1, 1, 1, 1, 2, .5, 1, 1, 1, 1, 2, 1, 1, .5,0 },
-  new [] {1, .5, 1, 1, 1, 1, 1, 2, .5, 1, 1, 1, 1, 2, 1, 1, .5,0 }};
+  new [] {1, .5, 1, 1, 1, 1, 1, 2, .5, 1, 1, 1, 1, 2, 1, 1, .5,0 }
+};
 {% endhighlight %}
 
 The correct implementation would have been to create an object...
