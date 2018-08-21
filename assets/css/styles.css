@@ -44,6 +44,15 @@ a, a:visited {
     margin-right: auto; 
 }
 
+.post-content a {
+    color: #4466c5;
+}
+
+.post-content a:hover {
+    color: #4466c5;
+    text-decoration: underline;
+}
+
 .home h1 {
     text-align: center;
 }
