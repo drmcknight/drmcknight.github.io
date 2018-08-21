@@ -19,12 +19,12 @@
 }
 
 a, a:visited {
-    color: #4466c5 !important;
+    color: #4466c5;
 }
 
 a:hover {
-    color: #4466c5 !important;
-    text-decoration: underline !important;
+    color: #4466c5;
+    text-decoration: underline;
 }
 
 .site-title-href {
