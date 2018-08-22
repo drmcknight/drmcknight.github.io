@@ -37,6 +37,11 @@ a:hover {
 
 .site-footer {
     height:180px;
+    background-color: #424242;
+}
+
+.site-footer a {
+    color: #828282;
 }
 
 .dark-link {
