@@ -40,7 +40,7 @@ a:hover {
     background-color: #424242;
 }
 
-.site-footer a, a:visited {
+.site-footer a, .site-footer a:visited {
     color: #828282 !important;
 }
 
