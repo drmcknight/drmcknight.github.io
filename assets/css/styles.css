@@ -41,7 +41,7 @@ a:hover {
 }
 
 .site-footer a, a:visited {
-    color: #828282;
+    color: #828282 !important;
 }
 
 .dark-link {
