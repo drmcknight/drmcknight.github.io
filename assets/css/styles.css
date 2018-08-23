@@ -120,4 +120,8 @@ a:hover {
     .home h1 {
         font-size: 47px;
     }
+
+    .page-content {
+        padding: 15px 0 !important;
+    }
 }
