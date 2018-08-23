@@ -97,6 +97,7 @@ a:hover {
 
 .footer-col-2 {
     order: 2;   
+    width: 150px !important;
 }
 
 .footer-col-3 {
