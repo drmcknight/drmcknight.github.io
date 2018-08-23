@@ -1,7 +1,13 @@
-.rune-m {
+.site-header .rune-m {
     height:32px;
     margin-right: 8px;
     float:left;
+    fill: #424242;
+}
+
+.site-footer .rune-m {
+    height:93px;
+    fill: #828282;
 }
 
 .post-list h3 {
@@ -77,4 +83,36 @@ a:hover {
     margin-left: 15px;
     margin-right: 5px;
     height: 15px;
+}
+
+.footer-col-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-col-1 {
+    order: 1;   
+}
+
+.footer-col-2 {
+    order: 2;   
+}
+
+.footer-col-3 {
+    order: 3;   
+}
+.contact-list, .social-media-list {
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px)
+{
+    .footer-col-1 {
+        width: 80px !important;
+    }
+
+    .footer-col-2 {
+        width: 150px !important;
+    }
 }
