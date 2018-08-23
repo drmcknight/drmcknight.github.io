@@ -116,4 +116,8 @@ a:hover {
     .footer-col-2 {
         width: 150px !important;
     }
+
+    .home h1 {
+        font-size: 47px;
+    }
 }
