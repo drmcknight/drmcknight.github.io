@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Greeter Falls, Tn"
+title:  "Hiking Greeter Falls"
 date:   2018-08-12 01:48:47 -0500
 categories: hiking
 description: Some friends and I drove from Huntsville to hike around Greeter Falls in Altamont Tennessee.
