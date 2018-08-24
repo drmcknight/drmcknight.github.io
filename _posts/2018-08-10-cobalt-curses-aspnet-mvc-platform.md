@@ -15,6 +15,8 @@ Cobalt is a platform that many of your favorite Curse sites are built upon ([dnd
 * MSSQL
 * LINQ 2 SQL with custom extensions
 * Test coverage < 1%
+* Roughly 500,000 lines of code (about half generated with custom model generation templates)
+* Overly-specific CSS
 * 1 repository with hundreds of branches
     * Some branches contained a totally different set of applications. Merges were fun.
 * Little documentation
