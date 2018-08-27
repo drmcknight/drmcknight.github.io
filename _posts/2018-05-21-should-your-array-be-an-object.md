@@ -4,6 +4,7 @@ title: "Should Your Array Be an Object?"
 date: 2018-05-21 23:48:47 -0500
 categories: clean code
 description: Should Your Array Be an Object? If each index of your array represents a property of a conceptual model, do a solid for those who will come after you and make a class.
+permalink: software/clean-code/should-your-array-be-an-object
 ---
 
 If each index of your array represents a property of a conceptual model, do a solid for those who will come after you and make a class. It seems rudimentary but I stumbled on this a few years ago while fixing a bug and figured I'd write about it. My best guess is that this represents the attack/defense/resist/weakness matrix of a set of pokemon. Which pokemon? Which stats?
