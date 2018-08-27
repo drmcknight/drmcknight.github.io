@@ -5,7 +5,7 @@ date:   2018-08-25 01:48:47 -0500
 categories: asp.net mvc
 description: Resolving the "The file does not exist" error for an ASP.NET MVC view
 image: 
-permalink: software/aspnet-mvc/the-file-does-not-exist-error-resolved
+permalink: archive/2018/08/25/the-file-does-not-exist-error-resolved
 ---
 
 We started getting an error stating `The file does not exist.` intermittently regarding random views. When you run into this issue, check that the following is true:
