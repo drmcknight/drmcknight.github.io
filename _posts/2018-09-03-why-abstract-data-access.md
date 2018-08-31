@@ -1,10 +1,52 @@
 ---
 layout: post
-title: "Making the Case for Data Access Abstraction"
-date:   2018-09-03 01:00:00 -0500
-categories: []
+title: "Why You Should Always Abstract Data Access"
+date:   2018-08-30 01:00:00 -0500
+categories: [software]
 description: 
 image: 
 permalink: archive/2018/09/03/making-the-case-for-data-abstraction
 ---
 
+Early in my career I had trouble articulating why one should abstract an application's data access. I couldn't make it past the "in case we need to switch databases" argument. The point I was trying to make is decent reason to follow the pattern but isn't alone very convincing. However, there are many, much more convincing reasons why you should abstract your data access. I'll try to cover them here. By the way, in the project I'm working on right now, we need to change both the database and ORM.
+
+### Unit Testing
+Interfaces can be mocked and unit tested. You _can_ unit test ad hoc data access with an in memory database using EF core but that locks you in to using whatever ORM supports in memory databases. 
+
+When I say "ad hoc" i mean using some kind of ORM to interact with data storage anywhere within the application.
+
+### Loose Coupling
+With data access abstract, your application is no longer opinionated on how the data is being handled. We just need an implementation to fulfill a contract.
+
+On one project we were running into database collisions under high traffic. Unfortunately the data access was intentionally ad hoc and all over the place, views and all. I needed to bypass the ORM and execute SQL commands directly to ensure proper SQL execution. Doing so removed any possibility of unit testing and coupled the class to yet another dependency. If this change had been behind an interface, my tests would have continued to pass (if they had even existed in the first place) and the application would have been none the wiser.
+
+### It's faster
+{% highlight csharp %}
+[HttpGet]
+public ActionResult GetForumThreads(int forumId)
+{
+    var threads = _threadRepository.GetForumThreads(forumId, User);
+    if(!threads.Any())
+    {
+        // error or something
+    }
+
+    return View(new ForumViewModel(threads));
+}
+{% endhighlight %}
+
+Given that you've created the ForumThreadRepository interface and ignoring the fake error, the controller action above is finished. There is a ton of hidden complexity in getting the threads visible to a user. The best part about this, I can create a fake implementation of the ForumThreadRepository and return whatever I want from `GetFroumThreads(User)` allowing other team members to begin working on the UI without being blocked by my tinkering on complex queries.
+
+{% highlight csharp %}
+public class FakeForumThreadRepository : IForumThreadRepository
+{
+    public IEnumerable<ForumThread> GetFroumThreads(User user)
+    {
+        return new[]
+        {
+            new ForumThread { Id = 1, Title = "A title" ...},
+            ...
+        }
+    }
+}
+{% endhighlight %}
