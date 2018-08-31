@@ -5,13 +5,15 @@ date:   2018-08-30 01:00:00 -0500
 categories: [software]
 description: 
 image: 
-permalink: archive/2018/09/03/making-the-case-for-data-abstraction
+permalink: archive/2018/09/03/why-you-should-always-abstract-data-access
 ---
 
-Early in my career I had trouble articulating why one should abstract an application's data access. I couldn't make it past the "in case we need to switch databases" argument. The point I was trying to make is decent reason to follow the pattern but isn't alone very convincing. However, there are many, much more convincing reasons why you should abstract your data access. I'll try to cover them here. By the way, in the project I'm working on right now, we need to change both the database and ORM.
+Early in my career I had trouble articulating why one should abstract an application's data access. I couldn't make it past the "in case we need to switch databases" argument. The point I was trying to make is a decent reason to follow the pattern but isn't alone very convincing. However, there are many, much more convincing reasons why you should abstract your data access. I'll try to cover them here. 
+
+By the way, in the project I'm working on right now, we need to change both the database and ORM.
 
 ### Unit Testing
-Interfaces can be mocked and unit tested. You _can_ unit test ad hoc data access with an in memory database using EF core but that locks you in to using whatever ORM supports in memory databases. 
+Interfaces can be mocked and unit tested. You _can_ unit test ad hoc data access with an in memory database using EF Core but that locks you in to using whatever ORM supports in memory databases. 
 
 When I say "ad hoc" i mean using some kind of ORM to interact with data storage anywhere within the application.
 
