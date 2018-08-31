@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Why You Should Always Abstract Data Access"
-date:   2018-08-30 01:00:00 -0500
+title: "Why Bother Abstracting Data Access?"
+date:   2018-09-03 01:00:00 -0500
 categories: [software]
-description: 
+description: Why Bother Abstracting Data Access? I'll try to cover the reasons here. 
 image: 
-permalink: archive/2018/09/03/why-you-should-always-abstract-data-access
+permalink: archive/2018/09/03/why-bother-abstracting-data-access
 ---
 
 Early in my career I had trouble articulating why one should abstract an application's data access. I couldn't make it past the "in case we need to switch databases" argument. The point I was trying to make is a decent reason to follow the pattern but isn't alone very convincing. However, there are many, much more convincing reasons why you should abstract your data access. I'll try to cover them here. 
