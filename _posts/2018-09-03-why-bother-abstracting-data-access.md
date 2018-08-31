@@ -15,7 +15,22 @@ By the way, in the project I'm working on right now, we need to change both the 
 ### Unit Testing
 Interfaces can be mocked and unit tested. You _can_ unit test ad hoc data access with an in memory database using EF Core but that locks you in to using whatever ORM supports in memory databases. 
 
-When I say "ad hoc" i mean using some kind of ORM to interact with data storage anywhere within the application.
+When I say "ad hoc" I mean using some kind of ORM to interact with data storage anywhere within the application. Like the following:
+{% highlight csharp %}
+[HttpGet]
+public ActionResult Index()
+{
+    using(var context = new SomeDataContext())
+    {
+        var threads = context.ForumThreads.Take(10);
+        return View(new IndexViewModel(threads));
+    }
+    
+    // Or in our current case
+    return View(new IndexViewModel(ForumThread.Query.Take(10)));
+}
+{% endhighlight %}
+
 
 ### Loose Coupling
 With data access abstract, your application is no longer opinionated on how the data is being handled. We just need an implementation to fulfill a contract.
