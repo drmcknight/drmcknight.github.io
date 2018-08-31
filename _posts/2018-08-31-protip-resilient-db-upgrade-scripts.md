@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Protip: Resilient SQL Database Upgrade Scripts"
-date:   2018-09-01 01:48:47 -0500
+date:   2018-08-31 01:00:00 -0500
 categories: [sql, protips]
 description: Colleagues of mine recently suggested we make our SQL scripts idempotent due to a few problems we'd been having
 image: 
