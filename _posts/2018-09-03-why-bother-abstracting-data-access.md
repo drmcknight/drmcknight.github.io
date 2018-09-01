@@ -52,7 +52,7 @@ public ActionResult GetForumThreads(int forumId)
 }
 {% endhighlight %}
 
-Given that you've created the ForumThreadRepository interface and ignoring the fake error, the controller action above is finished. There is a ton of hidden complexity in getting the threads visible to a user. The best part about this, I can create a fake implementation of the ForumThreadRepository and return whatever I want from `GetFroumThreads(User)` allowing other team members to begin working on the UI without being blocked by my tinkering on complex queries.
+Given that you've created the ForumThreadRepository interface and ignoring the fake error, the controller action above is finished. There is a ton of hidden complexity in getting the threads visible to a user. The best part about this, I can inject a fake implementation of the ForumThreadRepository and return whatever I want from `GetFroumThreads(User)` allowing other team members to begin working on consuming the endpoint without being blocked by my tinkering on complex queries. Whenever I'm ready to work with an actual database, I just configure my application to inject another class.
 
 {% highlight csharp %}
 public class FakeForumThreadRepository : IForumThreadRepository
