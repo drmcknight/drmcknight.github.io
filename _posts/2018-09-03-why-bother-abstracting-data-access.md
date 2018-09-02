@@ -74,7 +74,7 @@ It becomes much harder to reason about your software when you have queries (or a
 
 Now consider our current initiative. We need to update our ORM so we can use a cheaper database technology. Estimating this effort is impossible, not in a dramatic way, literally impossible. Our choices are: commit to a long-term, herculean effort to find every query in the application and change it or find a solution that matches our current syntax.
 
-If our data access was abstract, this would be a trivial effort to plan and execute. We could even do it piecemeal over time.
+If our data access was abstract, this would be a trivial effort to plan and execute piecemeal.
 
 {% highlight csharp %}
 public class CurseORMForumRepository : IForumThreadRepository
