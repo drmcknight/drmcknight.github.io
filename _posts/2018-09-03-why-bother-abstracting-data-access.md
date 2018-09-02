@@ -12,8 +12,13 @@ Early in my career I had trouble articulating why one should abstract an applica
 
 By the way, in the project I'm working on right now, we need to change both the database and ORM.
 
+### Loose Coupling
+With data access abstract, your application is no longer opinionated on how the data is being handled. We just need an implementation that fulfills a contract.
+
+On one project we were running into database collisions under high traffic. Unfortunately the data access was intentionally ad hoc and all over the place, views and all. I needed to bypass the ORM and execute SQL commands directly to ensure proper SQL execution. Doing so removed any possibility of unit testing and coupled the class to yet another dependency. If this change had been behind an interface, my tests would have continued to pass (if they had even existed in the first place) and the rest of the application would have been none the wiser.
+
 ### Unit Testing
-Interfaces can be mocked and unit tested. You _can_ unit test ad hoc data access with an in memory database using EF Core but that locks you in to using whatever ORM supports in memory databases. 
+Loose coupling allows for unit tests because interfaces can be mocked. You _can_ unit test ad hoc data access with an in memory database using EF Core but that locks you in to using whatever ORM supports in memory databases. 
 
 When I say "ad hoc" I mean using some kind of ORM to interact with data storage anywhere within the application. Like the following:
 {% highlight csharp %}
@@ -31,13 +36,7 @@ public ActionResult Index()
 }
 {% endhighlight %}
 
-
-### Loose Coupling
-With data access abstract, your application is no longer opinionated on how the data is being handled. We just need an implementation to fulfill a contract.
-
-On one project we were running into database collisions under high traffic. Unfortunately the data access was intentionally ad hoc and all over the place, views and all. I needed to bypass the ORM and execute SQL commands directly to ensure proper SQL execution. Doing so removed any possibility of unit testing and coupled the class to yet another dependency. If this change had been behind an interface, my tests would have continued to pass (if they had even existed in the first place) and the application would have been none the wiser.
-
-### It's faster
+### It's just faster
 {% highlight csharp %}
 [HttpGet]
 public ActionResult GetForumThreads(int forumId)
