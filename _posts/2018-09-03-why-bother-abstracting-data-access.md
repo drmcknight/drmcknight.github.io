@@ -102,7 +102,7 @@ public class EFCoreForumRepository : CurseORMForumRepository
     {
         using(var ctx = new DataContext())
         {
-            // not sure if this is the wrong syntax but you get the idea.
+            // not sure if this is the correct syntax but you get the idea.
             return ctx.Forums;
         }
     }
