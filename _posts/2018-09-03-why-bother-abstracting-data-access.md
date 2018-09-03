@@ -76,7 +76,7 @@ public class FakeForumThreadRepository : IForumThreadRepository
 
  Whenever I'm ready to work with an actual database, I just configure my application to inject the "real" class.
 
-### It fits in your head
+### It Fits In Your Head
 Dan North talks a lot about writing [software that fits in your head](https://www.youtube.com/watch?v=4Y0tOi7QWqM). If you haven't watched his stuff, do it.
 
 It becomes much harder to reason about your software when you have queries (or anything) scattered all over. The project I'm currently working on has data access in more places than it isn't. I think the last time I checked there are 130 queries in views.
