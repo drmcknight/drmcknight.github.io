@@ -3,12 +3,12 @@ layout: post
 title: "Why Bother Abstracting Data Access?"
 date:   2018-09-03 01:00:00 -0500
 categories: [software]
-description: Why Bother Abstracting Data Access? I'll try to cover the reasons here. 
+description: Beware! When advocating for data access abstraction, database changeability is a red herring. The real discussion is whether or not we want a loosely coupled application.
 image: 
 permalink: archive/2018/09/03/why-bother-abstracting-data-access
 ---
 
-Beware! When advocating for data access abstraction, database changability is a red herring. Sharp teammates can argue that changing from MSSQL to Oracle is highly unlikely, and they'd most likely be right. The real discussion is whether or not we want a loosely coupled application. With a loosely coupled application, we can indeed easily change databases but that is not the end to our means. 
+Beware! When advocating for data access abstraction, database changeability is a red herring. Sharp teammates can argue that changing from MSSQL to Oracle is highly unlikely, and they'd most likely be right. The real discussion is whether or not we want a loosely coupled application. With a loosely coupled application, we can indeed easily change databases but that is not the end to our means. 
 
 Below I'll try to cover what I think are the best reasons for abstracting data access. By the way, in the project I'm working on right now, we need to change both the database platform and ORM.
 
