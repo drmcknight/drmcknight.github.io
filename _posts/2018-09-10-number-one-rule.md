@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "#1 Rule"
-date:   2018-09-05 01:00:00 -0500
+date:   2018-09-10 01:00:00 -0500
 categories: [general]
 description: Candidates are often asked what their number one rule is. It's a good question that can lead to some interesting insights, given the answerer has enough time to think about it. Here's mine.
 image: 
-permalink: archive/2018/09/05/number-one-rule
+permalink: archive/2018/09/10/number-one-rule
 ---
 
 Candidates are often asked what their number one rule is. It's a good question that can lead to some interesting insights, given the answerer has enough time to think about it. Lucky for me, I'm not in an interview so I get to take all the time I want to think of my best answer.
