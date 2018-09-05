@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#1 Rule"
+title: "Number One Rule"
 date:   2018-09-10 01:00:00 -0500
 categories: [general]
 description: Our candidates are often asked what their number one rule is. It's a good question that can lead to some interesting insights, given the answerer has enough time to think about it. Here's mine.
