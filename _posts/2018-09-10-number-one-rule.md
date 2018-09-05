@@ -8,9 +8,9 @@ image:
 permalink: archive/2018/09/10/number-one-rule
 ---
 
-Our candidates are often asked what their number one rule is. It's a good question that can lead to some interesting insights. I'm not sure if I'd be able to give a good answer on the spot though . Lucky for me, I'm not in an interview so I get to take all the time I want to think of my best answer.
+Our candidates are often asked what their number one rule is. It's a good question that can lead to some interesting insights. I'm not sure if I'd be able to give a good answer on the spot though. Lucky for me, I'm not in an interview so I get to take all the time I want to think of my best answer.
 
-From the things I own to the work I do, my number one rule is "fewer, but better". A close second would be "less is more". I'm always chucking things out and pairing things down. It's a talent I learned from my stepdad and is essentially my favorite thing to do.
+My number one rule is "less, but better". A close second would be "less is more". I'm always chucking things out and pairing things down. It's a talent I learned from my stepdad and is essentially my favorite thing to do.
 
 Here's a bit of anecdotal evidence:
 
