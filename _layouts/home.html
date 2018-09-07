@@ -4,11 +4,9 @@ title: A blog about software, management, hiking, being a dad, etc.
 ---
 
 <div class="home">
-  <h1>
-      {%- if page.title -%}
-        {{ page.title }}
-      {%- endif -%}
-  </h1>
+  {%- if page.title -%}
+    <h1>{{ page.title }}</h1>
+  {%- endif -%}
   {{ content }}
   {%- if site.posts.size > 0 -%}
     <ul class="post-list">
