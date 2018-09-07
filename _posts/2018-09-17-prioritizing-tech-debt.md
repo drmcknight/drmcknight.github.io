@@ -39,7 +39,7 @@ You may find value spending the time coming up with specific dollar values here.
 
 Does this tech debt create more tech debt?
 ## Interest Cost
-We now know generally what it will take to fix the tech debt how much has it already cost? It will be much easier to justify prioritizing tech debt when we know how much the business has been paying for it. If you're in our position and don't have sufficient time reporting at this granularity, estimate.
+We now know generally what it will cost to fix the tech debt but how much have we already paid? It will be much easier to justify prioritizing tech debt when we know how much the business has been paying for it. If you're in our position and don't have sufficient time reporting at this granularity, estimate.
 
 **Bad:**
 I waste _so_ much time fighting CSS
