@@ -8,9 +8,7 @@ image:
 permalink: archive/2018/09/17/prioritizing-tech-debt
 ---
 
-When setting priority, paying down tech debt seems to always make it to the bottom of the pile. The business wants to deliver valuable feature x and engineers want to fix issues that cause them to limp along. The folks who set priority just have some weird vendetta against good engineering, right? Probably  not. The more likely issue is that engineers suck at communicating the value of paying down tech debt.
-
-I've been working on improving at this so I'll list out a few things that I've found handy.
+When setting priority, tech debt seems to want to crawl to the bottom of the list. The business wants to deliver valuable feature x and developers want to fix developer-nagging issue y. We need to improve how we advocate for resolving tech debt. I've been working on improving at this so I'll list out a few things that I've found handy.
 
 ## Be Specific
 When creating the artifacts that will be discussed in planning meetings (JIRA stories or note cards), paint a clear and simple picture of what the tech debt is and why it's debt. Be wary of including too much information. Your non-technical people may skim over the details and you'll wind up [bikeshedding](https://en.wiktionary.org/wiki/bikeshedding).
