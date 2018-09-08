@@ -8,18 +8,18 @@ image:
 permalink: archive/2018/09/17/prioritizing-tech-debt
 ---
 
-Engineers tend to feel at odds with product owners when it comes to tech debt. Product owners set priority and tech debt never seems to make it to the top. They just have some weird vendetta against good engineering, right? Probably  not. The more likely issue is that engineers suck at communicating the value of paying down tech debt.
+When setting priority, paying down tech debt seems to always make it to the bottom of the pile. The business wants to deliver valuable feature x and engineers want to fix issues that cause them to limp along. The folks who set priority just have some weird vendetta against good engineering, right? Probably  not. The more likely issue is that engineers suck at communicating the value of paying down tech debt.
 
-I've been working on improving at this so I'll try to list out a few things that I've found handy.
+I've been working on improving at this so I'll list out a few things that I've found handy.
 
 ## Be Specific
-No one sits down at their computer and pays down tech debt. They do however refactor a class to be testable and then write unit tests.
+When creating the artifacts that will be discussed in planning meetings (JIRA stories or note cards), paint a clear and simple picture of what the tech debt is and why it's debt. Be wary of including too much information. Your non-technical people may skim over the details and you'll wind up with the [bike shed problem](https://en.wiktionary.org/wiki/bikeshedding).
 
 **Bad:**
 Our CSS is difficult to work with. It needs to be cleaned up.
 
 **Better:**
-Our platform CSS is overly specific, difficult to read, and even more difficult to maintain. Developers building on our platform have to write CSS that is even harder to read and maintain to beat platform specificity. This causes regressions often and severely impacts developer sentiment. In order to fix this we will need to refactor our style sheets and markup.
+Our platform CSS is overly specific, difficult to read, and even more difficult to maintain. Developers building on our platform have to write CSS that is even harder to read and maintain to beat platform specificity. This causes regressions often and severely impacts developer effectiveness. In order to fix this we will need to refactor our style sheets and markup.
 
 ## Measure
  Riot shared how they measure tech debt by impact, fix cost, and contagion in [Taxonomy of tech debt](https://engineering.riotgames.com/news/taxonomy-tech-debt). I don't see much value in the actual numbering system that they use but the axes help drive discussions.
