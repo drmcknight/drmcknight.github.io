@@ -13,7 +13,7 @@ When setting priority, paying down tech debt seems to always make it to the bott
 I've been working on improving at this so I'll list out a few things that I've found handy.
 
 ## Be Specific
-When creating the artifacts that will be discussed in planning meetings (JIRA stories or note cards), paint a clear and simple picture of what the tech debt is and why it's debt. Be wary of including too much information. Your non-technical people may skim over the details and you'll wind up with the [bike shed problem](https://en.wiktionary.org/wiki/bikeshedding).
+When creating the artifacts that will be discussed in planning meetings (JIRA stories or note cards), paint a clear and simple picture of what the tech debt is and why it's debt. Be wary of including too much information. Your non-technical people may skim over the details and you'll wind up [bikeshedding](https://en.wiktionary.org/wiki/bikeshedding).
 
 **Bad:**
 Our CSS is difficult to work with. It needs to be cleaned up.
