@@ -10,7 +10,7 @@ permalink: archive/2018/10/01/i-hate-singletons
 
 I'm only being a little dramatic. It's not that I hate only having one instance of something, that can be useful. It's that it's such an easy trap for developers to tightly couple everything together.
 
-Take my new class `Foo` for example. It only has the default constructor. Whoever calls `new Foo()` has no idea that they've just coupled their class to 4 other systems.
+Take my class `Foo` for a contrived example. It only has the default constructor. Whoever calls `new Foo()` has no idea that they've just coupled their class to 4 other systems.
 
 {% highlight csharp %}
 public class Foo
@@ -25,4 +25,4 @@ public class Foo
 }
 {% endhighlight %}
 
-Only use singletons when whatever you're doing _requires_ there to only one instance of a class. And if singletons are required, rely on your IOC Container and inject them.
+Only use singletons when whatever you're doing _requires_ there to be only one instance of a class. And if singletons are required, rely on your IOC Container and inject them.
