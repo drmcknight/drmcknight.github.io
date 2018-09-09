@@ -38,7 +38,7 @@ You may find value spending the time coming up with specific dollar values here.
 Does this tech debt create more tech debt?
 
 ## The Price of Ignoring
-How much will it cost us to not fix it? This is hard to measure but it exists and needs to be discussed. The price could be a literal dollar amount, risky deploys, difficultly recruiting, or anything really.
+How much will it cost us to not fix it? This is hard to measure but it exists and needs to be discussed. The price could be a dollar amount, risky deploys, difficultly recruiting, or anything really. I'll probably write a whole post about this soon.
 
 ----
 
