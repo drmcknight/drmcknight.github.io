@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prioritizing Tech Debt"
-date:   2018-09-08 01:00:00 -0500
+date:   2018-09-17 01:00:00 -0500
 categories: [software]
 description: 
 image: 
