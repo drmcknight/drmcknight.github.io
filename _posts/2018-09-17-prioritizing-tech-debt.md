@@ -38,9 +38,9 @@ You may find value spending the time coming up with specific dollar values here.
 Does this tech debt create more tech debt?
 
 ## The Price of Ignoring
-How much will it cost us to not fix it? This is hard to measure but it exists and needs to be discussed. The price could be a dollar amount, risky deploys, difficultly recruiting, or anything really. I'll probably write a whole post about this soon.
+How much will it cost us to not fix it? This is hard to measure but it exists and needs to be discussed. The price could be a dollar amount, time lost due to risky deploys, difficultly recruiting, or anything really. I'll probably write a whole post about this soon.
 
 ----
 
 <br />
-With the information that we've aggregated, we're in a much better position to advocate prioritizing paying down our tech debt. We may still end up prioritizing other projects but at least the decision will be far more informed.
+We're now in a much better position to advocate prioritizing paying down our tech debt. Other projects may still end up coming first but at least the decision will be far more informed.
