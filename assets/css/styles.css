@@ -14,7 +14,10 @@
     padding-bottom: 30px;
     border-bottom: 1px solid grey;
 }
-
+.post hr {
+    margin: auto;
+    width: 50%;
+}
 .footer-col-1 {
     width:auto !important;
     margin-right: 15px;

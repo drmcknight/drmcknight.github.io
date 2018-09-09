@@ -1,17 +1,17 @@
 ---
 layout: post
 title: "Prioritizing Tech Debt"
-date:   2018-09-17 01:00:00 -0500
+date:   2018-09-08 01:00:00 -0500
 categories: [software]
 description: 
 image: 
 permalink: archive/2018/09/17/prioritizing-tech-debt
 ---
 
-When setting priority, tech debt seems to want to crawl to the bottom of the list. The business wants to deliver valuable feature x and developers want to fix developer-nagging issue y. We need to improve how we advocate for resolving tech debt. I've been working on improving at this so I'll list out a few things that I've found handy.
+I've been working on how to best advocate prioritizing tech debt in quarterly planning. These are a few things that I've found handy.
 
 ## Be Specific
-When creating the artifacts that will be discussed in planning meetings (JIRA stories or note cards), paint a clear and simple picture of what the tech debt is and why it's debt. Be wary of including too much information. Your non-technical people may skim over the details and you'll wind up [bikeshedding](https://en.wiktionary.org/wiki/bikeshedding).
+When creating the artifacts (JIRA stories, note cards, etc.) that will be discussed in planning meetings, paint a clear and simple picture of what the tech debt is and why it's debt. Be wary of including too much information. Your non-technical teammates may skim over the details and you'll wind up [bikeshedding](https://en.wiktionary.org/wiki/bikeshedding).
 
 **Bad:**
 Our CSS is difficult to work with. It needs to be cleaned up.
@@ -20,7 +20,7 @@ Our CSS is difficult to work with. It needs to be cleaned up.
 Our platform CSS is overly specific, difficult to read, and even more difficult to maintain. Developers building on our platform have to write CSS that is even harder to read and maintain to beat platform specificity. This causes regressions often and severely impacts developer effectiveness. In order to fix this we will need to refactor our style sheets and markup.
 
 ## Measure
- Riot shared how they measure tech debt by impact, fix cost, and contagion in [Taxonomy of tech debt](https://engineering.riotgames.com/news/taxonomy-tech-debt). I don't see much value in the actual numbering system that they use but the axes help drive discussions.
+Once we've described the tech debt we'll need a way to compare it to other things competing for priority. One great approach was published by Riot in a [blog post](https://engineering.riotgames.com/news/taxonomy-tech-debt) explaining how they measure their tech debt by impact, fix cost, and contagion. I don't see much value in the actual numbering system that they use but the axes help drive discussions.
 
 ### Impact
 >This takes the form of player-facing issues (bugs, missing features, unexpected behavior), and developer-facing issues (slower implementation, workflow issues, random useless shit to remember).
@@ -36,14 +36,11 @@ You may find value spending the time coming up with specific dollar values here.
 >If this tech debt is allowed to continue to exist, how much will it spread?
 
 Does this tech debt create more tech debt?
-## Interest Cost
-We now know generally what it will cost to fix the tech debt but how much have we already paid? It will be much easier to justify prioritizing tech debt when we know how much the business has been paying for it. If you're in our position and don't have sufficient time reporting at this granularity, estimate.
 
-**Bad:**
-I waste _so_ much time fighting CSS
+## The Price of Ignoring
+How much will it cost us to not fix it? This is hard to measure but it exists and needs to be discussed. The price could be a literal dollar amount, risky deploys, difficultly recruiting, or anything really.
 
-**Better:**
-I spend 20% more time writing CSS due to overspecificity and the resulting CSS is so difficult to understand that I'm the only developer who can maintain it. 
+----
 
-## Put it All Together
-My team uses JIRA so we would make an epic and list the appropriate fields and discuss during quarterly planning. Now we're in a much better position to advocate for paying down tech debt.
+<br />
+With the information that we've aggregated, we're in a much better position to advocate prioritizing paying down our tech debt. We may still end up prioritizing other projects but at least the decision will be far more informed.
