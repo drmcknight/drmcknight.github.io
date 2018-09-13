@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I Hate Singletons"
-date:   2018-09-17 01:00:00 -0500
+date: 2018-09-17 01:00:00 -0500
 categories: [software]
 description: I'm only being a little dramatic. It's not that I hate only having one instance of something, that can be useful. It's that it's such an easy trap for developers to tightly couple everything together.
 image: 
