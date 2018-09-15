@@ -17,7 +17,7 @@ public class Foo
 {
     Foo()
     {
-        BillingSystem.Instance.GetAThing();
+        BillingSystem.Instance.DoAThing();
         SessionSystem.Instance.GetAnotherThing();
         EmailSystem.Instance.GetYetAnotherThing();
         NotificationSystem.Instance.GetTheLastThing();
@@ -25,4 +25,4 @@ public class Foo
 }
 {% endhighlight %}
 
-Only use singletons when whatever you're doing _requires_ there to be only one instance of a class. And if singletons are required, rely on your IOC Container and inject them.
+Only use singletons when whatever you're doing _requires_ there to be only one instance of a class. And if singletons are required, inject them.
