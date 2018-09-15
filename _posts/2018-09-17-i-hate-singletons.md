@@ -8,7 +8,7 @@ image:
 permalink: archive/2018/09/17/i-hate-singletons
 ---
 
-I'm only being a little dramatic. It's not that I hate having one instance of something, that can be useful. It's that it's too easy for developers to tightly couple everything together when accessed via a static property on a class.
+I'm only being a little dramatic. It's not that I hate having one instance of something. That can be useful. It's that it's too easy for developers to tightly couple everything together when accessed via a static property on a class.
 
 Take my class `Foo` for example. It only has the default constructor. Whoever calls `new Foo()` has no idea that they've just coupled their class to 4 other systems.
 
