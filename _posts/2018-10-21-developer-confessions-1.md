@@ -2,8 +2,8 @@
 layout: post
 title: "Developer Confessions"
 date: 2018-10-21 01:00:00 -0500
-categories: [software]
-description: 
+categories: [software, sins]
+description: I wrote my own IOC container and deployed it to several production applications. 
 image: 
 permalink: archive/2018/10/21/developer-confession
 ---
