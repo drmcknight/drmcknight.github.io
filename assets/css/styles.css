@@ -86,6 +86,10 @@ a:hover {
     flex-wrap: wrap;
 }
 
+.footer-col {
+    margin-bottom: 0px !important;
+}
+
 .footer-col-1 {
     order: 1;   
 }
@@ -119,4 +123,8 @@ a:hover {
     .page-content {
         padding: 15px 0 !important;
     }
+}
+
+iframe {
+    width: 100%;
 }
