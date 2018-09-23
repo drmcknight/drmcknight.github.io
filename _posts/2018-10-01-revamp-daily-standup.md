@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Daily Stand-Ups Suck"
-date: 2018-09-01 01:00:00 -0500
+date: 2018-10-01 01:00:00 -0500
 categories: [software]
 description: 
 image: 
