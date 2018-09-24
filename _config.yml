@@ -27,8 +27,11 @@ image: "/assets/images/site/og-image-1200x1200.png"
 markdown: kramdown
 theme: minima
 permalink: /archive/:year/:month/:day/:title/
+paginate: 10
+paginate_path: "page/:num"
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 sass:
   style: compact
 # Exclude from processing.
