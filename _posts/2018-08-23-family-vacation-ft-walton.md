@@ -5,7 +5,6 @@ date:   2018-08-23 01:48:47 -0500
 categories: family
 description: We had the opportunity to visit Ft. Walton Beach this past weekend!
 image: /assets/images/posts/ft-walton.png
-permalink: archive/2018/08/23/ft-walton-florida
 ---
 
 ![Bubs and I walking on the beach]({{"/assets/images/posts/ft-walton.png" | absolute_url}})

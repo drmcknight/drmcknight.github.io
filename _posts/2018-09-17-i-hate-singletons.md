@@ -5,7 +5,6 @@ date: 2018-09-17 01:00:00 -0500
 categories: [software]
 description: I'm only being a little dramatic. It's not that I hate only having one instance of something, that can be useful. It's that it's such an easy trap for developers to tightly couple everything together.
 image: 
-permalink: archive/2018/09/17/i-hate-singletons
 ---
 
 I'm only being a little dramatic. It's not that I hate having one instance of something. That can be useful. It's that it's too easy for developers to tightly couple everything together when accessed via a static property on a class.

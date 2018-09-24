@@ -5,7 +5,6 @@ date: 2018-09-24 01:00:00 -0500
 categories: [csharp, holy war]
 description: One side says var is easier to use, the other side says explicit typing is more readable. I think they're both right.
 image: 
-permalink: archive/2018/09/24/csharp-var-versus-explicit-type
 ---
 
 I've stumbled upon this holy war a few times throughout my career. One side says var is easier to use, the other side says explicit typing is more readable. I think they're both right. 

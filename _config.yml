@@ -26,6 +26,7 @@ image: "/assets/images/site/og-image-1200x1200.png"
 # Build settings
 markdown: kramdown
 theme: minima
+permalink: /archive/:year/:month/:day/:title/
 plugins:
   - jekyll-feed
 sass:

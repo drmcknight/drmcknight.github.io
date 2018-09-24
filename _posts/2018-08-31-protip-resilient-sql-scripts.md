@@ -5,7 +5,6 @@ date:   2018-08-31 01:00:00 -0500
 categories: [sql, protips]
 description: Colleagues of mine recently suggested we make our SQL scripts idempotent due to a few problems we'd been having
 image: 
-permalink: archive/2018/09/01/resilient-sql-scripts
 ---
 
 Colleagues of mine recently suggested we make our SQL scripts idempotent due to a few problems we'd been having. I've known what an idempotent script is. I like running idempotent scripts. I have no idea why this hadn't already occurred to me. I extracted the template below from their recommendations and examples.
