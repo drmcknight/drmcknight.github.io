@@ -12,4 +12,6 @@ According to Dan North, our daily stand-ups have been missing the point. I've al
 
 <iframe src="https://www.youtube.com/embed/lvs7VEsQzKY?start=1829" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 
-As the video suggests, I am now the only person worried about reporting status every morning. The rest of the team is freed up to discuss how we're going to "sieze the day". I'm never going back!
+As the video suggests, I collect status throughout the day and give a report the next morning. This takes all of two minutes. The rest of stand-up is dedicated to discussing how we're going to "sieze the day". I've only tried this for a few weeks but feedback so far has only been positive.
+
+A word of warning: if you're going to try this, give status on work items, not individuals. I did this for the first few days and it was just as awkward and ineffective as the old stand-up format.
