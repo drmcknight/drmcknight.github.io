@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Seize the Day!"
+title: "Carpe Diem"
 date: 2018-10-01 01:00:00 -0500
 categories: [software, management]
 description: According to Dan North, our daily stand-ups have been missing the point. I've always _felt_ that daily stand-ups were lacking something but could never articulate why. It's a good thing Dan can! 
